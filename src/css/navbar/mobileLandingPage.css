@@ -1,0 +1,13 @@
+/* Style for tables */
+
+@media screen and (max-width: 1382px) {
+    .lay-navbar-wrapper {
+        height: 119px;
+        width: 900px;
+        max-width: 1363px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 70px 90px 76px 40px 76px 40px 32px 40px 87px 150px 103px 47px 74px;
+        text-align: center;
+    }
+  }

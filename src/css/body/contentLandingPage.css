@@ -1,0 +1,271 @@
+/* container scrollbar styling */
+.main-container {
+    overflow-x: hidden;
+    width: 99%;
+    margin: auto;
+    height: 600px;
+}
+
+.main-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* elements styling */
+
+/* --- Slogon section --- */
+.slogon {
+    height: 90%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.slogon-head {
+    font-family: Sofia Pro;
+    font-size: 44px;
+    margin-bottom: 0;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.slogon-footer {
+    font-family: Sofia Pro;
+    font-size: 27px;
+    letter-spacing: 0;
+    color: #747474;
+    opacity: 1;
+}
+
+.slogon .lighted {
+    color: #AACD4D;
+}
+
+/* --- Discover section --- */
+
+.disc-1 .disc-cont-head {
+    text-align: left;
+    font-size: 38px;
+    margin-bottom: 0;
+    font-family:  Sofia Pro;
+    color: black;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.disc-1 .disc-cont-footer {
+    text-align: left;
+    font-size: 27px;
+    font-family:  Sofia Pro;
+    letter-spacing: 0;
+    color: #747474;
+    opacity: 1;
+}
+
+.disc-1 .lighted {
+    color: #AACD4D;
+}
+
+.disc-2 .disc-cont-head {
+    text-align: left;
+    font-size: 38px;
+    margin-bottom: 0;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    color: #242424;
+}
+
+.disc-2 .disc-cont-footer {
+    text-align: left;
+    font-size: 27px;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    color: #747474;
+    opacity: 1;
+}
+
+.disc-2 .lighted {
+    color: #6ACCF0;
+}
+
+.disc-3 .disc-cont-head {
+    text-align: left;
+    font-size: 38px;
+    margin-bottom: 0;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.disc-3 .disc-cont-footer {
+    text-align: left;
+    font-size: 27px;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    color: #747474;
+    opacity: 1;
+}
+
+.disc-3 .lighted {
+    color: #FE8D2A;
+}
+
+.disc-4 .disc-cont-head {
+    text-align: left;
+    font-size: 38px;
+    margin-bottom: 0;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.disc-4 .disc-cont-footer {
+    text-align: left;
+    font-size: 27px;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    color: #747474;
+    opacity: 1;
+}
+
+.disc-4 .lighted {
+    color: #AACD4D;
+}
+
+.disc-5 .disc-cont-head {
+    text-align: left;
+    font-size: 38px;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    color: balck;
+}
+
+.disc-5 .disc-cont-footer {
+    text-align: left;
+    font-size: 27px ;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    color: #747474;
+    opacity: 1;
+}
+
+.disc-5 .lighted {
+    color: #ED6F42;
+}
+
+.disc-6 .disc-cont-head {
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 0;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.disc-6 .lighted {
+    color: #AACD4D;
+}
+
+.test-text-head {
+    text-align: left;
+    font-size: 38px;
+    margin-bottom: 0;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    color: black;
+    opacity: 1;
+}
+
+.test-text-footer {
+    text-align: left;
+    font-size: 27px ;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    color: #747474;
+    opacity: 1;
+}
+
+.doc-link {
+    text-align: left;
+    font-size: 20px;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    color: #747474;
+    opacity: 1;
+}
+
+.test-text-head .lighted {
+    color: #AACD4D;
+
+}
+
+.test-text {
+    margin-left: 10%;
+}
+
+.integrate-1-head {
+    text-align: left;
+    font-size: 25px;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.integrate-1-footer {
+    text-align: left;
+    font-size: 20px;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    color: #747474;
+    opacity: 1;
+}
+
+.integrate-2-head {
+    text-align: left;
+    font-size: 25px;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.integrate-2-footer {
+    text-align: left;
+    font-size: 20px;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    color: #747474;
+    opacity: 1;
+}
+
+.integrate-3-head {
+    text-align: left;
+    font-size: 25px;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    opacity: 1;
+}
+
+.integrate-3-footer {
+    text-align: left;
+    font-size: 20px;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    color: #747474;
+    opacity: 1;
+}
+
+.integrate-link {
+    text-align: left;
+    font-size: 20px;
+    font-family: Sofia Pro;
+    letter-spacing: 0;
+    color: #747474;
+    opacity: 1;
+}
+
+.int-lighted {
+    color: #AACD4D;
+
+}
+
+.disc-img {
+    width: 80% !important;
+}

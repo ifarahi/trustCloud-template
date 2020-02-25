@@ -1,0 +1,101 @@
+.slogon {
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+#disc-1 .disc-cont {
+    visibility: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+#disc-1 .disc-img {
+    visibility: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+#disc-2 .disc-cont {
+    visibility: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+#disc-3 .disc-cont {
+    visibility: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+#disc-3 .disc-img {
+    visibility: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+#disc-4 .disc-cont {
+    visibility: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+#disc-4 .disc-img {
+    visibility: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+#disc-5 .disc-cont {
+    visibility: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+#disc-6 .disc-cont {
+    visibility: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+#test .test-text {
+    visibility: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+.row-holder {
+    visibility: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+.doc-test {
+    visibility: hidden;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+.bounceIn {
+    visibility: visible !important;
+}
+
+.fadeInLeft {
+    visibility:  visible !important;
+}
+
+.fadeInRight {
+    visibility:  visible !important;
+}
+
+.fadeIn {
+    visibility:  visible !important;
+}
+
+.fadeInUp {
+    visibility:  visible !important;
+}
+
+.fadeInDown {
+    visibility:  visible !important;
+}
+

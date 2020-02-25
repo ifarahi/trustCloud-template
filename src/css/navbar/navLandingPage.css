@@ -1,0 +1,76 @@
+/* Style on large screens  */
+.lay-navbar-wrapper {
+    height: 119px;
+    width: auto;
+    max-width: 1363px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 70px 170px 76px 94px 76px 84px 32px 84px 87px 335px 145px 47px 74px;
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: -15px;
+    font: Bold 25px Sofia Pro;
+    letter-spacing: 0;
+    color: #242424;
+    opacity: 1;
+}
+
+.lay-nav-item {
+    position: relative;
+    margin-top: 50px;
+}
+
+.left-menu {
+    position: relative;
+}
+
+.left-menu-item {
+    position: absolute;
+    text-align: center;
+    width: 76px;
+    left: 0;
+    top: -8px;
+    font: Light 20px Sofia Pro;
+    letter-spacing: 0;
+    color: #747474;
+    opacity: 1;
+}
+
+.left-menu-item-test {
+    width: 32px;
+}
+
+.right-menu {
+    position: relative;
+}
+
+.right-menu-item {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    left: 0;
+    top: -10px;
+    text-align: left;
+    font: Bold 20px Sofia Pro;
+    letter-spacing: 0;
+    color: #747474;
+    opacity: 1;
+}
+
+.active-lnd::after {
+    position: absolute;
+    content: '';
+    top: 22px;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background: #6ACCF0 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+    z-index: 10001;
+}

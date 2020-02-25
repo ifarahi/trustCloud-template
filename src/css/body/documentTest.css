@@ -1,0 +1,34 @@
+.doc-test {
+    margin-left: 30%;
+}
+.file-upload-card {
+    width: 400px;
+}
+
+.result-displayer {
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.document-test-form-content {
+    margin-top: 5%;
+}
+
+.document-test-form-content p b {
+    margin-right: 5px;
+}
+
+.document-test-grapic-head h3 {
+    text-align: center;
+}
+
+.document-test-grapic-content {
+    margin-top: 5%;
+}
+
+.document-test-grapic-content img{
+    width: 60%;
+    transform: translateX(-50%);
+    margin-left: 50%;
+}
