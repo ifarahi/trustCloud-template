@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import {
-  Card, CardBody, Col, Nav, NavItem, NavLink, TabContent, TabPane,
+  Card, Nav, NavItem, NavLink, TabContent, TabPane,
 } from 'reactstrap';
 import classnames from 'classnames';
 import { withTranslation } from 'react-i18next';
@@ -8,7 +8,6 @@ import PropTypes from 'prop-types';
 import ReactJson from 'react-json-view'
 import DocumentContent from './DocumentContent';
 import DocumentGraphic from './DocumentGraphic';
-import { createLiteralElement } from 'intl-messageformat-parser';
 
 
 class DefaultTabs extends PureComponent {
@@ -33,7 +32,7 @@ class DefaultTabs extends PureComponent {
   };
 
   render() {
-    const { t, jsonResult } = this.props;
+    const { jsonResult } = this.props;
     const { activeTab } = this.state;
     const { documentInfoVerificationResult, visualVerificationResult } = jsonResult;
     const { base64StringData:portrait } = visualVerificationResult.graphicFields.Portrait.imageData;

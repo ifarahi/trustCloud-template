@@ -43,6 +43,7 @@ class ECommerceDashboard extends PureComponent {
     const { t, newOrder, rtl } = this.props;
 
     return (
+
       <Container className="dashboard">
         <Row>
           <Col md={12}>

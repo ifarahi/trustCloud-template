@@ -39,7 +39,9 @@ class NavLandingPage extends Component {
                 </div>
                 <div className="space-spliter"></div>
                 <div className="right-menu lay-nav-item">
+                    <a href="/client-area">
                     <span id="client-area" className="right-menu-item"><FormattedMessage id="landingPage.navbar.clientArea" /></span>
+                    </a>
                 </div>
                 <div className="space-spliter"></div>
                 <div className="right-menu lay-nav-item">

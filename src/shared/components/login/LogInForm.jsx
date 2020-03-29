@@ -44,6 +44,7 @@ class LogInForm extends PureComponent {
     const {
       handleSubmit, errorMessage, errorMsg, fieldUser, typeFieldUser, form,
     } = this.props;
+    console.log(handleSubmit);
     const { showPassword } = this.state;
     return (
       <Form className="form login-form" onSubmit={handleSubmit}>

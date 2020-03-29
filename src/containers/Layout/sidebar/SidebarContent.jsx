@@ -22,6 +22,7 @@ class SidebarContent extends Component {
       <div className="sidebar__content">
         <ul className="sidebar__block">
           <SidebarLink title="Dashboard Default" icon="home" route="/dashboard_default" onClick={this.hideSidebar} />
+          <SidebarLink title="slogon" icon="home" route="/slogon" onClick={this.hideSidebar} />
           <SidebarLink
             title="Dashboard E-commerce"
             icon="store"
@@ -57,6 +58,20 @@ class SidebarContent extends Component {
           <SidebarCategory title="Layout" icon="layers">
             <button className="sidebar__link" type="button" onClick={changeToLight}>
               <p className="sidebar__link-title">Light Theme</p>
+            </button>
+            <button className="sidebar__link" type="button" onClick={changeToDark}>
+              <p className="sidebar__link-title">Dark Theme</p>
+            </button>
+          </SidebarCategory>
+          <SidebarCategory title="Menu" icon="lock">
+            <button className="sidebar__link" type="button" onClick={changeToLight}>
+              <p className="sidebar__link-title">Light Theme</p>
+            </button>
+            <button className="sidebar__link" type="button" onClick={changeToDark}>
+              <p className="sidebar__link-title">Dark Theme</p>
+            </button>
+            <button className="sidebar__link" type="button" onClick={changeToDark}>
+              <p className="sidebar__link-title">Dark Theme</p>
             </button>
             <button className="sidebar__link" type="button" onClick={changeToDark}>
               <p className="sidebar__link-title">Dark Theme</p>

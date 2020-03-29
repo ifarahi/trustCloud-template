@@ -12,6 +12,7 @@ import Charts from './Charts';
 import Tables from './Tables';
 import Forms from './Forms';
 import UI from './UI';
+import Slogon from '../../../Dashboard/index';
 
 import Chat from '../../../Chat/index';
 import Todo from '../../../Todo/index';
@@ -21,6 +22,8 @@ import DefaultDashboard from '../../../Dashboards/Default/index';
 import MobileAppDashboard from '../../../Dashboards/MobileApp/index';
 import BookingDashboard from '../../../Dashboards/Booking/index';
 
+import Personal from '../../../Dashboard/index';
+
 import Mail from '../../../Mail/index';
 
 export default () => (
@@ -28,6 +31,7 @@ export default () => (
     <Layout />
     <div className="container__wrap">
       <Route path="/dashboard_default" component={DefaultDashboard} />
+      <Route path="/slogon" component={Slogon} />
       <Route path="/dashboard_e_commerce" component={Commerce} />
       <Route path="/dashboard_fitness" component={FitnessDashboard} />
       <Route path="/dashboard_crypto" component={Crypto} />

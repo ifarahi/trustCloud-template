@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import MainWrapper from '../MainWrapper';
-import Landing from '../../Landing/index';
 import LandingPage from '../../LandingPage/index';
 import NotFound404 from '../../DefaultPage/404/index';
 import LockScreen from '../../Account/LockScreen/index';
 import LogIn from '../../Account/LogIn/index';
+import Landing from '../../Dashboard/index';
 import LogInPhoto from '../../Account/log_in_photo/index';
 import Register from '../../Account/Register/index';
 import RegisterPhoto from '../../Account/RegisterPhoto/index';
@@ -17,6 +17,7 @@ const Router = () => (
     <main>
       <Switch>
         <Route exact path="/" component={LandingPage} />
+        <Route exact path="/landing" component={Landing} />
         <Route path="/404" component={NotFound404} />
         <Route path="/lock_screen" component={LockScreen} />
         <Route path="/log_in" component={LogIn} />

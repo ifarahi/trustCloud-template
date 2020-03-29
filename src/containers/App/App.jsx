@@ -58,7 +58,7 @@ class App extends Component {
           returnTo={`${window.location.origin}/easydev/dashboard_default`}
           onRedirectCallback={this.onRedirectCallbackAuth0}
         >
-          <BrowserRouter basename="/easydev">
+          <BrowserRouter basename="/gatesight">
             <I18nextProvider i18n={i18next}>
               <ScrollToTop>
                 <Fragment>
